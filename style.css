@@ -41,6 +41,11 @@ a
     text-decoration: none;
 }
 
+a:hover
+{
+    font-weight:bolder;
+}
+
 .headline
 {
     font-style: italic;
