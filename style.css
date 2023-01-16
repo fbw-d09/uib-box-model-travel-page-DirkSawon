@@ -5,7 +5,15 @@
     /* box-sizing: border-box; */
     width: 956px;
     height: 438px;
-    border: 20px solid #E0E0E0;
+    border: 15px solid #E0E0E0;
+    border-right: 25px solid #E0E0E0;
+    border-bottom: 25px solid #E0E0E0;
+    /* background-size: x y contain cover; */
+    /* background-image:url(./images/beach.jpg);
+    background-size: 828px 438px;
+    background-repeat: no-repeat;
+    background-position-x:300px; */
+    /* background-; */
 }
 
 .left-1, .right-1
@@ -72,11 +80,16 @@ main
     width:438px;
     height:438px;
     float:right;
-    right:0;
+    /* right:207px; */
     overflow:hidden;
+    background-image:url(./images/beach.jpg);
+    background-size: 828px 438px;
+    background-repeat: no-repeat;
+    background-position-x:-207px;
 }
+    
 
-img
+/* img
 {
     position:relative;
     box-sizing:border-box;
@@ -86,4 +99,4 @@ img
     right:-150px;
     overflow:hidden;
     
-}
+} */
